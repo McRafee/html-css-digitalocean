@@ -314,14 +314,73 @@ button.social-login:hover{
     color: #031b4e;
 }
 
-#deploy h3 {
+#deploy h3,
+#designed h3 {
     font-size: 20px;
     font-weight: 500;
     color: #031b4e;
 }
 
-#deploy p {
+#deploy p,
+#designed p{
     font-size: 18px;
     font-weight: 400;
     color: rgba(3,27,78,.7);
 }
+/* end ofDeploy section */
+/* Designed section */
+#designed {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f3f5f9;
+}
+
+#myCarousel {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-indicators .active {
+
+    background-color: #0069ff;
+}
+
+.carousel-indicators li {
+    border: 2px solid #0069ff;
+}
+
+.carousel-caption {
+    position: static;
+    padding-top: 40px;
+}
+
+#myCarousel .carousel-caption p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(3,27,78,.7);
+    text-shadow: none;
+    line-height: 2;
+}
+/* end of Designed section */
+/* Business section */
+#business {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+#service {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #031b4e url(../img/data-center-map-20321538.svg);
+}
+
+#service h2 {
+    color: #fff;
+}
+
+/* end of Business section */
