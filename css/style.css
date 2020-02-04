@@ -1,10 +1,13 @@
+
+/* common elements */
 body {
     font-family: 'Roboto', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     padding-top: 100px;
 }
-
+/* end of common elements */
+/* nav1 nav2 */
 #nav-small {
     border-bottom: 1px solid lightgrey;
     background-color: #fff;
@@ -117,7 +120,8 @@ a#signup {
 a#signup:hover {
     color: #fff;
 }
-
+/* end of nav1 nav2 */
+/* header */
 header {
     background-image: url(../img/bg-home-1-d54581d7.jpg);
     background-size: cover;
@@ -230,8 +234,8 @@ button.social-login:hover{
     width: 100%;
     position: relative;
 }
-
-
+/* end of header */
+/* Innovative section */
 #innovative {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -249,23 +253,75 @@ button.social-login:hover{
 
 #innovative li img {
     height: 100px;
-    max-width: 175px;
+    max-width: 155px;
     object-fit: contain;
     padding: 5px;
 }
 
-.ArrowLink a {
-    color:
+#innovative a {
+    font-size: 16px;
 }
 
 .ArrowLink svg {
     fill: currentColor;
--ms-flex-negative: 0;
-flex-shrink: 0;
-height: 1em;
-line-height: 1;
-max-width: 100%;
-position: relative;
-top: 3px;
-width: 1em;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 1em;
+    line-height: 1;
+    max-width: 100%;
+    position: relative;
+    top: 3px;
+    width: 1em;
+}
+/* end of Innovative section */
+/* Deploy section */
+#deploy {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+#deploy h2 {
+    font-size: 36px;
+    letter-spacing: -.9px;
+    color: #031b4e;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+#deploy p {
+    font-size: 20px;
+    margin-bottom: 64px !important;
+    margin-top: 16px;
+    color: rgba(3,27,78,.7);
+}
+
+#deploy-list li {
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 0;
+    border-left: 2px solid #e5e8ed;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 18px;
+    color: rgba(3,27,78,.5);
+    font-weight: 400;
+}
+
+#deploy-list li:first-child {
+    border-left: 2px solid #0069ff;
+    color: #031b4e;
+}
+
+#deploy h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #031b4e;
+}
+
+#deploy p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(3,27,78,.7);
 }
