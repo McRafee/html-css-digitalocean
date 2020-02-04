@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    padding-top: 100px;
 }
 
 #nav-small {
@@ -118,15 +119,30 @@ a#signup:hover {
 }
 
 header {
-    margin-top: 100px;
     background-image: url(../img/bg-home-1-d54581d7.jpg);
     background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #0248ff;
 }
 
 .jumbotron {
     margin-bottom: 30px;
     color: #fff;
     background-color: transparent;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.jumbotron h1{
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.jumbotron p {
+    font-size: 26px;
+    opacity: 0.8;
+    font-weight: 400;
 }
 
 .login-form {
@@ -138,6 +154,118 @@ header {
     border-radius: 5px;
 
 }
- header h2 {
+
+header h2 {
      padding-bottom: 20px;
+     font-weight: 600;
  }
+
+#create {
+    background-color: #0069ff;
+}
+
+.social-login svg {
+    transform: translateY(3px);
+    margin-right: 25px;
+
+ }
+
+button.social-login  {
+     background-color: #f2f8ff;
+     width: 47.5%;
+     color: #031b4e;
+     border: 1px solid rgba(0,105,255,.2);
+     font-weight: 500;
+}
+
+button.social-login:hover{
+    background: #d5e4f7;
+    border: 1px solid rgba(0,105,255,.2);
+}
+
+/* Custom divider */
+.divider-custom {
+    /* margin: 1.25rem 0 1.5rem; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+
+.divider-custom .divider-custom-line {
+    width: 25%;
+    height: 1px;
+    background-color: #e5e8ed;
+    transform: translateY(-3px);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.login-form p {
+    color: #5b6987;
+    font-size: 16px;
+}
+
+.login-form small {
+    color: #5b6987;
+}
+
+.footer-form {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#formGroupInputLarge,
+#exampleInputEmail1,
+#exampleInputPassword1 {
+    height: 48px;
+    padding: 0 16px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    color: rgba(3,27,78,.7);
+    -webkit-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) .25s;
+    transition: all cubic-bezier(0.645, 0.045, 0.355, 1) .25s;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+}
+
+
+#innovative {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f3f5f9;
+}
+
+#innovative h2 {
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: .4;
+
+}
+
+#innovative li img {
+    height: 100px;
+    max-width: 175px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.ArrowLink a {
+    color:
+}
+
+.ArrowLink svg {
+    fill: currentColor;
+-ms-flex-negative: 0;
+flex-shrink: 0;
+height: 1em;
+line-height: 1;
+max-width: 100%;
+position: relative;
+top: 3px;
+width: 1em;
+}
