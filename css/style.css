@@ -315,21 +315,24 @@ button.social-login:hover{
 }
 
 #deploy h3,
-#designed h3 {
+#designed h3,
+#development h3 {
     font-size: 20px;
     font-weight: 500;
     color: #031b4e;
 }
 
 #deploy p,
-#designed p{
+#designed p,
+#development p{
     font-size: 18px;
     font-weight: 400;
     color: rgba(3,27,78,.7);
 }
 /* end ofDeploy section */
 /* Designed section */
-#designed {
+#designed,
+#development {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #f3f5f9;
@@ -365,6 +368,14 @@ button.social-login:hover{
     text-shadow: none;
     line-height: 2;
 }
+
+.control-button-icon-right,
+.control-button-icon-left{
+    position: absolute;
+    width: 22px;
+    top: 50%;
+}
+
 /* end of Designed section */
 /* Business section */
 #business {
@@ -382,6 +393,7 @@ button.social-login:hover{
 #service h2 {
     color: #fff;
 }
+
 
 #service .table > tbody > tr > td{
     border-top: none;
@@ -402,4 +414,15 @@ button.social-login:hover{
 
 .www-u-Opacity--60 {
     opacity: 0.6;
+}
+
+.wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 5px;
 }
