@@ -383,4 +383,23 @@ button.social-login:hover{
     color: #fff;
 }
 
-/* end of Business section */
+#service .table > tbody > tr > td{
+    border-top: none;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+#service .table > tbody > tr:last-of-type > td {
+     border-bottom: none;
+}
+
+.www-u-TextColor--white {
+    color: #fff;
+}
+
+.www-u-FontWeight--bold {
+    font-weight: 400;
+}
+
+.www-u-Opacity--60 {
+    opacity: 0.6;
+}
